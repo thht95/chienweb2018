@@ -19,7 +19,7 @@
             <div style="padding:80px;">
                 <tr >
                     <td style="padding-top:20px; padding-left:20px; padding-right:20px" align="center" colspan="2" class="tieude">
-                    ĐĂNG NHẬP QUẢN TRỊ 3 &nbsp;</td>
+                    ĐĂNG NHẬP QUẢN TRỊ &nbsp;</td>
                 </tr>
                 <tr>
                     <td style="padding-left:20px" align="right" class="dn">
