@@ -60,7 +60,7 @@
                                     
                         </asp:DropDownList>
                         <asp:RequiredFieldValidator ID="rfvGadi" runat="server" ControlToValidate="ddlGadi"
-                                ErrorMessage="Chưa chọn ga đi" InitialValue="--Chọn ga đi--" Text="Chưa chọn ga đi"></asp:RequiredFieldValidator>
+                                ErrorMessage="Chưa chọn ga đi" InitialValue="--Chọn một ga đi--" Text="Chưa chọn ga đi"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
