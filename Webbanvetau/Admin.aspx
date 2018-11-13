@@ -94,7 +94,7 @@
                                     
                         </asp:DropDownList>
                         <asp:RequiredFieldValidator ID="rfvRongDDL" runat="server" ControlToValidate="ddtau"
-                                ErrorMessage="Chưa chọn tàu" InitialValue="--Chọn tàu--" Text="Chưa chọn tàu"></asp:RequiredFieldValidator>
+                                ErrorMessage="Chưa chọn tàu" InitialValue="--Chọn một tàu--" Text="Chưa chọn tàu"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
