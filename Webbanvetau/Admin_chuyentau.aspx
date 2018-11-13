@@ -238,14 +238,14 @@
                                     <asp:Label ID="lGioden" runat="server" Text='<%# Bind("ngayden", "{0:HH:mm}") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Giá tiền">
+                           <%-- <asp:TemplateField HeaderText="Giá tiền">
                             <EditItemTemplate>
                                 <asp:TextBox ID="tbGiaTien" runat="server" Text='<%# Bind("gia_tien") %>'></asp:TextBox>
                             </EditItemTemplate>
                             <ItemTemplate>
                                 <asp:Label ID="lGiatien" runat="server" Text='<%# Bind("gia_tien") %>'></asp:Label>
                             </ItemTemplate>
-                            </asp:TemplateField>
+                            </asp:TemplateField>--%>
                             <asp:TemplateField HeaderText="Xử lý">
                                 <ItemTemplate>
                                     <asp:ImageButton ID="IBT_sua" runat="server" CommandName="sua" CausesValidation="false" CommandArgument='<%# ((GridViewRow) Container).RowIndex %>'

@@ -755,7 +755,7 @@ namespace Webbanvetau
             float gialichtrinh = float.Parse(txtGialichtrinh.Text);
             //float giatoa = float.Parse(txtGiatoa.Text);
             float phantram = float.Parse(txtPhantram.Text);
-            float thanhtien = (giatau + gialichtrinh ) * phantram;
+            float thanhtien = (giatau + gialichtrinh) * phantram;
             txtThanhtien.Text = thanhtien.ToString();
         }
 

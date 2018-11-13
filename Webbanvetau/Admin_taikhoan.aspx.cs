@@ -260,11 +260,16 @@ namespace Webbanvetau
                     }
                     else if (dt.Rows.Count == 0)
                     {
-                        SqlCommand cmd = new SqlCommand("spTaikhoan_Insert", cnn);
-                        cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.Add("@taikhoan", txtTaikhoan.Text);
-                        cmd.Parameters.AddWithValue("@matkhau", txtMatkhau.Text);
-                        cmd.Parameters.AddWithValue("@maquyenhan", ddlQuyenhan.SelectedValue);
+                        //SqlCommand cmd = new SqlCommand("spTaikhoan_Insert", cnn);
+                        //cmd.CommandType = CommandType.StoredProcedure;
+                        //cmd.Parameters.Add("@taikhoan", txtTaikhoan.Text);
+                        //cmd.Parameters.AddWithValue("@matkhau", txtMatkhau.Text);
+                        //cmd.Parameters.AddWithValue("@maquyenhan", ddlQuyenhan.SelectedValue);
+                        //cmd.ExecuteNonQuery();
+                        //cmd.Dispose();
+                        //cnn.Close();
+                        string sql = "INSERT INTO dbo.tbltaikhoan VALUES('"+ txtTaikhoan.Text + "', '"+ txtMatkhau.Text + "', "+ ddlQuyenhan.SelectedValue + ")";
+                        SqlCommand cmd = new SqlCommand(sql, cnn);
                         cmd.ExecuteNonQuery();
                         cmd.Dispose();
                         cnn.Close();
