@@ -77,8 +77,17 @@
                         <asp:TextBox ID="txtSdt" runat="server"></asp:TextBox>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Ngày sinh
+                    </td>
+                    <td class="style3_nhap">
+                        <asp:TextBox type='datetime' ID="txtngaysinh" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
                 <asp:HiddenField id="hdtest" runat="server" />
                 </tr>
+                
                 <tr>
                     <td colspan="4">
                         <asp:Label ID="lberror" runat="server" ForeColor="Red"></asp:Label>

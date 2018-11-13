@@ -262,6 +262,7 @@ namespace Webbanvetau
                         cmd.Parameters.AddWithValue("@gioitinh", gt);
                         cmd.Parameters.AddWithValue("@email", txtEmail.Text);
                         cmd.Parameters.AddWithValue("@sdt", txtSdt.Text);
+                        cmd.Parameters.AddWithValue("@ngaysinh", txtngaysinh.Text);
                         cnn.Open();
                         cmd.ExecuteNonQuery();
                     }
