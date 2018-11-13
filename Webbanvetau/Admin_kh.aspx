@@ -158,6 +158,14 @@
                                     <asp:Label ID="lbSdt" runat="server" Text='<%# Bind("sdt") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Ngày sinh">
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="TextBox3" runat="server" Text='<%# Bind("ngaysinh") %>'></asp:TextBox>
+                                </EditItemTemplate>
+                                <ItemTemplate>
+                                    <asp:Label ID="lbNgaysinh" runat="server" Text='<%# Bind("ngaysinh") %>'></asp:Label>
+                                </ItemTemplate>
+                            </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Xử lý">
                                 <ItemTemplate>
                                     <asp:ImageButton ID="IBT_sua" runat="server" CommandName="sua"  CommandArgument='<%# ((GridViewRow) Container).RowIndex %>'
