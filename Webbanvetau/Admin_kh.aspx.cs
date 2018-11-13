@@ -249,6 +249,7 @@ namespace Webbanvetau
                 {
                     gt = "Nữ";
                 }
+                string ngaysinh = string.IsNullOrEmpty(txtngaysinh.Text) ? "1/1/2018" : txtngaysinh.Text;
 
                 string conString = ConfigurationManager.ConnectionStrings["conString"].ConnectionString;
                 using (SqlConnection cnn = new SqlConnection(conString))
